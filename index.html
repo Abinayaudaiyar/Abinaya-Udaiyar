@@ -1,0 +1,797 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abinaya Udaiyar - Full Stack Developer </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home"><i class="fas fa-graduation-cap"></i>Abinaya Udaiyar</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education </a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="image/ABINAYA UDAIYAR.pdf" class="btn btn-primary nav-cv-btn" download>Download
+                    CV</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    Hero Section
+    <section id="home" class="hero">
+        <div class="hero-code-bg">
+            <!-- <pre>
+const developer = {
+    name: "Abinaya Udaiyar",
+    role: "Full Stack Developer",
+    skills: [
+        "React.js", "Node.js", 
+        "Python", "FastAPI",
+        "MySQL", "JavaScript"
+    ],
+    hardWorker: true,
+    problemSolver: true,
+    hireable: true
+};
+
+function buildFuture() {
+    return "Innovation & Excellence";
+}
+            </pre> -->
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-greeting">Hello, I'm</div>
+                <h1 class="hero-title">Abinaya Udaiyar</h1>
+                <h2 class="hero-subtitle">A <span class="green-text">Full Stack Developer</span></span></h2>
+                <p class="hero-description">
+                    I’m a Full Stack Developer who loves building websites and creating smooth, user-friendly interfaces. I also enjoy working on backend logic and learning new technologies to improve performance and user experience.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">About Me</a>
+                </div>
+                <div class="hero-social">
+                    <a href="mailto:abinayaudaiyarr@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/abinayaudaiyarr/" target="_blank"
+                        class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="tel:+917708678798" class="social-icon"><i class="fas fa-phone"></i></a>
+                    <a href="https://github.com/Abinayaudaiyar" target="_blank" class="social-icon"><i
+                            class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-avatar">
+                    <img src="image/Abinaya profile.png" alt="Abinaya Udaiyar" class="profile-img">
+                    <div class="floating-elements-about">
+                        <div class="float-icon float-1"><i class="fab fa-python"></i></div>
+                        <div class="float-icon float-2"><i class="fab fa-node-js"></i></div>
+                        <div class="float-icon float-3"><i class="fas fa-fire"></i></div>
+                    </div>
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-element"></div>
+                    <div class="floating-element"></div>
+                    <div class="floating-element"></div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <a href="#about"><i class="fas fa-chevron-down"></i></a>
+            </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content-simple">
+                <div class="about-text-simple" style="padding-bottom: 1rem;">
+                    <div class="about-intro">
+                        <span class="greeting">Hello, I'm</span>
+                        <h3 class="name">ABINAYA UDAIYAR</h3>
+                        <p class="title">Full Stack Developer </p>
+                    </div>
+                    <div class="about-description-simple">
+                        <p>A passionate Full Stack Developer with experience in building scalable and dynamic web applications. Skilled in frontend and backend development, with a focus on clean design, performance, and seamless user experience. Always eager to learn new technologies and solve real-world problems through code.</p>
+                    </div>
+                    <div class="about-stats-simple">
+                        <a href="#education" class="stat-item-simple">
+                            <div class="stat-number">8.42</div>
+                            <div class="stat-label">CGPA</div>
+                        </a>
+                        <a href="#projects" class="stat-item-simple">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </a>
+                        <a href="#skills" class="stat-item-simple">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Technologies</div>
+                        </a>
+                    </div>
+                    <div class="about-actions">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                    </div>
+                </div>
+
+                <div class="about-visual-horizontal">
+                    <div class="about-card-horizontal">
+                        <div class="card-profile-horizontal">
+                            <div class="avatar-horizontal">
+                                <img src="image/Abinaya profile.png" alt=" Abinaya Udaiyar"
+                                    class="profile-img-small">
+                            </div>
+                            <div class="card-info-horizontal">
+                                <h4>ABINAYA UDAIYAR</h4>
+                                <p>Full Stack Developer</p>
+                            </div>
+                        </div>
+                        <div class="card-skills-horizontal">
+                            <div class="skill-tag">React.js</div>
+                            <div class="skill-tag">Node.js</div>
+                            <div class="skill-tag">Python</div>
+                            <div class="skill-tag">FastAPI</div>
+                            <div class="skill-tag">MySQL</div>
+                            <div class="skill-tag">JavaScript</div>
+                            <div class="skill-tag">Next.js</div>
+                            <div class="skill-tag">MongoDB</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="brushstroke brushstroke-3"></div>
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>B.Tech - Artificial Intelligence and Data Science</h3>
+                        <p class="education-institution">SRI SHANMUGHA COLLEGE OF ENGINEERING AND TECHNOLOGY</p>
+                        <p class="education-duration">2021 - 2025</p>
+                        <p class="education-description">
+                            Completed Bachelor of Technology with a focus on Artificial Intelligence and Data Science.
+                            Academic Performance: CGPA - 8.42/10. Comprehensive study of AI/ML algorithms, data
+                            analysis,
+                            software engineering, and modern web development practices.
+                        </p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Python FullStack Development - Training Program</h3>
+                        <p class="education-institution">Training Program, Bangalore</p>
+                        <p class="education-duration">2024 - 2025</p>
+                        <p class="education-description">
+                            Completed a 6-months Python Full Stack Development course with practical experience in
+                            backend
+                            and frontend development, live coding, and database integration with MySQL.
+                        </p>
+                    </div>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Certifications</h3>
+                        <p class="education-institution">Various Platforms</p>
+                        <p class="education-duration">2023 - 2024</p>
+                        <p class="education-description">
+                            • Python FullStack - Qspider<br>
+                            • Core Python - Udemy<br>
+                            • Power BI - PrepInsta<br>
+                            • MS Excel - PrepInsta <br>
+                            • Python for Data Science - Cognitive<br>
+                            • SQL - HackerRank<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="image/agrinexus.png" alt="AgriTech Nexus" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>AgriTech Nexus - Agriculture Marketplace Web App</h3>
+                        <p class="project-description">
+                            An online platform connecting farmers directly with buyers, removing middlemen.
+                            Ensures fair pricing, transparency, and real-time communication. Built using
+                            React.js and Firebase for smooth performance and live updates.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Abinayaudaiyar/Agrinexus" class="btn btn-github"
+                                target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="image/screenshort.png" alt="Job Portal" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>QR Code Generator</h3>
+                        <p class="project-description">
+                            A responsive web application built using React that allows users to generate QR codes 
+                            instantly by entering text or URLs. The app provides 
+                            options to customize the QR code size and background color, 
+                            while keeping the QR code readable and scan-friendly. 
+                            Users can preview and download the generated QR code with a single click. The project 
+                            follows React best practices and features a modern, attractive UI.
+                        </p>
+                        <div class="project-tech">
+                           <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">JavaScript(ES6)</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">QR code Generator API</span>
+                            <span class="tech-tag">Vite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Abinayaudaiyar/QR-code-generator/tree/main/qrcode-gen" class="btn btn-github"
+                                target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="image/jobportal.png" alt="Dental Shop" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3>Smart Job Portal</h3>
+                        <p class="project-description">
+                            The Smart Job Portal is a web-based application
+                             developed to connect job seekers and employers on a 
+                             single platform. It allows employers to post job openings and
+                             job seekers to search and apply for jobs easily. 
+                             The system is built using React JS for the frontend, Python (Flask) for the backend, 
+                             and MySQL for database management, ensuring a secure, 
+                             scalable, and user-friendly recruitment process.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Python (Flask)</span>
+                            <span class="tech-tag">MySQL</span>
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Abinayaudaiyar/smartjobportal" class="btn btn-github"
+                                target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-container-structured">
+
+                <!-- Frontend Category -->
+                <div class="skill-category-row">
+                    <h3 class="category-title"><i class="fas fa-laptop-code"></i> Frontend Development</h3>
+                    <div class="skills-grid-small">
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="95" style="--color: #e34f26;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fab fa-html5"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML <span style="color: #e34f26; font-size: 0.9em;">95%</span></h4>
+                                <p>Standard Markup Language</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="95" style="--color: #264de4;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fab fa-css3-alt"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>CSS <span style="color: #264de4; font-size: 0.9em;">95%</span></h4>
+                                <p>Styling & Responsive Design</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="90" style="--color: #f7df1e;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fab fa-js"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JavaScript <span style="color: #f7df1e; font-size: 0.9em;">90%</span></h4>
+                                <p>Interactive Web Logic</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="92" style="--color: #61dafb;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fab fa-react"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>React.js <span style="color: #61dafb; font-size: 0.9em;">92%</span></h4>
+                                <p>Component-Based UI</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="85" style="--color: #000000;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-layer-group"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Next.js <span style="color: #000000; font-size: 0.9em;">85%</span></h4>
+                                <p>React Framework</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="90" style="--color: #38b2ac;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-wind"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Tailwind CSS <span style="color: #38b2ac; font-size: 0.9em;">90%</span></h4>
+                                <p>Utility-First CSS</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="88" style="--color: #7952b3;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fab fa-bootstrap"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Bootstrap <span style="color: #7952b3; font-size: 0.9em;">88%</span></h4>
+                                <p>Responsive Framework</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend Category -->
+                <div class="skill-category-row">
+                    <h3 class="category-title"><i class="fas fa-server"></i> Backend Development</h3>
+                    <div class="skills-grid-small">
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="88" style="--color: #68a063;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fab fa-node-js"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Node.js <span style="color: #68a063; font-size: 0.9em;">88%</span></h4>
+                                <p>Scalable Server-Side JS</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="85" style="--color: #009688;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-bolt"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>FastAPI <span style="color: #009688; font-size: 0.9em;">85%</span></h4>
+                                <p>High-Performance APIs</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="88" style="--color: #3776ab;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fab fa-python"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Python <span style="color: #3776ab; font-size: 0.9em;">88%</span></h4>
+                                <p>Versatile & Powerful</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="85" style="--color: #000000;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-server"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Express.js <span style="color: #000000; font-size: 0.9em;">85%</span></h4>
+                                <p>Node.js Framework</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="80" style="--color: #d63aff;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-key"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JWT <span style="color: #d63aff; font-size: 0.9em;">80%</span></h4>
+                                <p>Secure Authentication</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="82" style="--color: #ea4335;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-envelope"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Nodemailer <span style="color: #ea4335; font-size: 0.9em;">82%</span></h4>
+                                <p>Email Sending</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="85" style="--color: #4a4a4a;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-lock"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>bcrypt <span style="color: #4a4a4a; font-size: 0.9em;">85%</span></h4>
+                                <p>Password Hashing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database Category -->
+                <div class="skill-category-row">
+                    <h3 class="category-title"><i class="fas fa-database"></i> Database Management</h3>
+                    <div class="skills-grid-small">
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="88" style="--color: #00758f;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-database"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>MySQL <span style="color: #00758f; font-size: 0.9em;">88%</span></h4>
+                                <p>Relational Database</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="85" style="--color: #336791;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-database"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>PostgreSQL <span style="color: #336791; font-size: 0.9em;">85%</span></h4>
+                                <p>Advanced SQL</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="82" style="--color: #47a248;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-leaf"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>MongoDB <span style="color: #47a248; font-size: 0.9em;">82%</span></h4>
+                                <p>NoSQL Database</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools Category -->
+                <div class="skill-category-row">
+                    <h3 class="category-title"><i class="fas fa-tools"></i> Tools & Technologies</h3>
+                    <div class="skills-grid-small">
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="95" style="--color: #007acc;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-code"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>VS Code <span style="color: #007acc; font-size: 0.9em;">95%</span></h4>
+                                <p>Code Editor</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="92" style="--color: #f05032;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fab fa-git-alt"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Git <span style="color: #f05032; font-size: 0.9em;">92%</span></h4>
+                                <p>Version Control</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="90" style="--color: #181717;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fab fa-github"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>GitHub <span style="color: #181717; font-size: 0.9em;">90%</span></h4>
+                                <p>Collaboration</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="85" style="--color: #ff6c37;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-paper-plane"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Postman <span style="color: #ff6c37; font-size: 0.9em;">85%</span></h4>
+                                <p>API Testing</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="80" style="--color: #76d04b;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-sync"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Nodemon <span style="color: #76d04b; font-size: 0.9em;">80%</span></h4>
+                                <p>Dev Tool</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Build & Deployment Category -->
+                <div class="skill-category-row">
+                    <h3 class="category-title"><i class="fas fa-cloud-upload-alt"></i> Build & Deployment</h3>
+                    <div class="skills-grid-small">
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="85" style="--color: #000000;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Vercel <span style="color: #000000; font-size: 0.9em;">85%</span></h4>
+                                <p>Frontend Deploy</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="82" style="--color: #00c7b7;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-cloud"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Netlify <span style="color: #00c7b7; font-size: 0.9em;">82%</span></h4>
+                                <p>Web Hosting</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="80" style="--color: #46e3b7;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-train"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Render/Railway <span style="color: #46e3b7; font-size: 0.9em;">80%</span></h4>
+                                <p>Backend Deploy</p>
+                            </div>
+                        </div>
+                        <div class="skill-card-small">
+                            <div class="circle-progress-small" data-percent="85" style="--color: #2088ff;">
+                                <svg width="80" height="80">
+                                    <circle cx="40" cy="40" r="35"></circle>
+                                    <circle cx="40" cy="40" r="35" class="progress"></circle>
+                                </svg>
+                                <div class="inner-icon"><i class="fas fa-play-circle"></i></div>
+                            </div>
+                            <div class="skill-info">
+                                <h4>GitHub Actions <span style="color: #2088ff; font-size: 0.9em;">85%</span></h4>
+                                <p>CI/CD</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Ready to work together?</h3>
+                    <p>
+                        I'm always excited to discuss new opportunities, innovative projects,
+                        and how we can collaborate to build something amazing. Whether you're
+                        a hiring manager looking for a dedicated developer or a fellow developer
+                        interested in collaboration, I'd love to hear from you.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>abinayaudaiyarr@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>https://www.linkedin.com/in/abinayaudaiyarr/</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 7708678798</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Namakkal, Tamil Nadu</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-cta">
+                        <p class="cta-text">Let's build something great together!</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/abinayaudaiyarr/" target="_blank"
+                                class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com" target="_blank" class="social-link"><i
+                                    class="fab fa-github"></i></a>
+                            <a href="mailto:abinayaudaiyarr@gmail.com" class="social-link"><i
+                                    class="fas fa-envelope"></i></a>
+                            <a href="tel:+917708678798" class="social-link"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025  Abinaya Udaiyar. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
