@@ -1,0 +1,13 @@
+{
+  "name": "abinaya-udaiyar-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Abinaya Udaiyar",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "deploy": "npx vercel --prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
