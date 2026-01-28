@@ -523,7 +523,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Create a temporary link and trigger download
             const link = document.createElement('a');
             link.href = 'image/ABINAYA UDAIYAR.pdf';
-            link.download = 'Srikanth_FullStack_Resume.pdf';
+            link.download = 'Abinaya Udaiyar_FullStack_Resume.pdf';
             link.style.display = 'none';
             document.body.appendChild(link);
             link.click();
